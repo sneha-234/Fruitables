@@ -33,7 +33,7 @@ const Testimonial = () => {
                             <div className="position-relative">
                                 <FaQuoteRight className="fa fa-quote-right fa-2x text-secondary position-absolute" style={{bottom: "30px", right: "10"}}/>
                                 <div className="mb-4 pb-4 border-bottom border-secondary">
-                                    <p className="mb-0">Lorem Ipsum is simply dummy text of the printing Ipsum has been the industry standard dummy text ever since the 1500s,
+                                    <p className="mb-0">{data.Description}
                                     </p>
                                 </div>
                                 <div className="d-flex align-items-center flex-nowrap">
