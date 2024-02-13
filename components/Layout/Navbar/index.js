@@ -91,8 +91,14 @@ const NavBar = () => {
                     </Link>
                   </div>
                 </div>
-                <Link href="contact.html" className="nav-item nav-link">
+                <Link href="/contact" className="nav-item nav-link">
                   Contact
+                </Link>
+                <Link href="/Login" className="nav-item nav-link">
+                  Login
+                </Link>
+                <Link href="/Signup" className="nav-item nav-link">
+                  Signup
                 </Link>
               </div>
               <div className="d-flex m-3 me-0">
@@ -101,10 +107,10 @@ const NavBar = () => {
                   data-bs-toggle="modal"
                   data-bs-target="#searchModal"
                 >
-                  <FaSearch className="fas fa-search text-primary"></FaSearch>
+                  <FaSearch className="fas fa-search text-primary" style={{height:"20" , width:"20" }}></FaSearch>
                 </button>
                 <Link href="#" className="position-relative me-4 my-auto">
-                  <FaShoppingBag className="fa fa-shopping-bag fa-2x"></FaShoppingBag>
+                  <FaShoppingBag className="fa fa-shopping-bag fa-2x" style={{height:"30" , width:"30"}}></FaShoppingBag>
                   <span
                     className="position-absolute bg-secondary rounded-circle d-flex align-items-center justify-content-center text-dark px-1"
                     style={{
@@ -118,7 +124,7 @@ const NavBar = () => {
                   </span>
                 </Link>
                 <Link href="#" className="my-auto">
-                  <FaUser className="fas fa-user fa-2x"></FaUser>
+                  <FaUser className="fas fa-user fa-2x" style={{height:"30" , width:"30"}}></FaUser>
                 </Link>
               </div>
             </div>
