@@ -7,7 +7,8 @@ import { CheckboxField ,InputField} from "../fields"
 import { SignUpService } from "@/services/authService";
 import { useRouter } from "next/router";
 import {FaArrowLeft , FaArrowRight} from "react-icons/fa";
-
+import HEAD_TITLE from "@/utils/title";
+import HeadPage from "../Layout/headPage";
 
 
 const defaultValues = {
@@ -54,6 +55,7 @@ function Signup() {
   };
 
   return (
+    <HeadPage title={HEAD_TITLE.signup}>
 
       <Container className="my-3 pt-5">
         <Row className="justify-content-center mt-3">
@@ -146,7 +148,7 @@ function Signup() {
           </Col>
         </Row>
       </Container>
-    
+    </HeadPage>
   );
 }
 

@@ -3,7 +3,7 @@
 import { NextResponse } from "next/server";
 
 export default function middleware(req) {
-  const AUTH_NOT_ALLOWED_PATHS = ["/Login", "/Signup" , "/contact"];
+  const AUTH_NOT_ALLOWED_PATHS = ["/Login", "/Signup"];
   const NO_AUTH_PATHS = ["/", "/Home" ];
 
   let loggedin = !!req.cookies.get("SnehaBaldeva");

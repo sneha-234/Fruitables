@@ -7,6 +7,8 @@ import * as yup from "yup";
 import { InputField } from "../fields";
 import { loginService } from "@/services/authService";
 import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
+import HeadPage from "../Layout/headPage";
+import HEAD_TITLE from "@/utils/title";
 
 const defaultValues = {
   email: "",
@@ -38,7 +40,7 @@ function LoginPe() {
 
   return (
     <>
-
+        <HeadPage title={HEAD_TITLE.login}>
         <section>
           <div className="container my-3 pt-5">
             <div className="row d-flex justify-content-center mt-3">
@@ -128,6 +130,7 @@ function LoginPe() {
             </div>
           </div>
         </section>
+        </HeadPage>
       
     </>
   );
