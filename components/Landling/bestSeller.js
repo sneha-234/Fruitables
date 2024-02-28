@@ -66,7 +66,7 @@ const BestSeller = () => {
                                             <FaStar className="fas fa-star"/>
                                         </div>
                                         <h4 className="mb-3">{data.rate}</h4>
-                                        <Link href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><FaShoppingBag class="fa fa-shopping-bag me-2 text-primary"/> Add to cart</Link>
+                                        <Link href="#" className="btn border border-secondary rounded-pill px-3 text-primary"><FaShoppingBag className="fa fa-shopping-bag me-2 text-primary"/> Add to cart</Link>
                                     </div>
                                 </div>
                             </div>

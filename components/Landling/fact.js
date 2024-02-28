@@ -23,16 +23,16 @@ const FACTS_DATA = [
 ]
 const Fact = () => {
   return (
-    <div class="container-fluid py-5">
-      <div class="container">
-        <div class="bg-light p-5 rounded">
-          <div class="row g-4 justify-content-center">
+    <div className="container-fluid py-5">
+      <div className="container">
+        <div className="bg-light p-5 rounded">
+          <div className="row g-4 justify-content-center">
             {FACTS_DATA.map((data , index)=>
             {
                 return (
-                    <div  key ={index} class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="counter bg-white rounded p-5">
-                      <FaUsers class="fa fa-users text-secondary" style={{height:"100" , width: "100"}}/>
+                    <div  key ={index} className="col-md-6 col-lg-6 col-xl-3">
+                    <div className="counter bg-white rounded p-5">
+                      <FaUsers className="fa fa-users text-secondary" style={{height:"100" , width: "100"}}/>
                       <h4>{data.title}</h4>
                       <h1>{data.subtitle}</h1>
                     </div>

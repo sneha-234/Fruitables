@@ -65,7 +65,7 @@ const NavBar = () => {
                 <Link href="/shop" className="nav-item nav-link">
                   Shop
                 </Link>
-                <Link href="/shop-detail" className="nav-item nav-link">
+                <Link href="/shopDetail" className="nav-item nav-link">
                   Shop Detail
                 </Link>
                 <div className="nav-item dropdown">
@@ -132,6 +132,7 @@ const NavBar = () => {
         </div>
       </div>
     </div>
+    
   );
 };
 
